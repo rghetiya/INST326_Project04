@@ -1,0 +1,144 @@
+Note: 1
+Title: Basic Print Function
+Text: The print function is used to output data to the standard output device, which is typically the console.
+It can print strings, integers, and objects.
+When printing multiple items, commas can be used to separate them, which inserts a space between each item in the output.
+
+Tags: basics,  print
+Link: 
+Snippet:
+print("Hello,", "World!", "Age:", 30)
+
+
+
+Note: 2
+Title: List Comprehensions
+Text: List comprehensions provide a concise way to create lists from existing lists or iterables.
+They consist of brackets containing an expression followed by a for clause.
+This method is often more readable and concise than using loops.
+
+Tags: lists,  comprehension
+Link: 
+Snippet:
+squares = [x**2 for x in range(10)]
+
+
+
+Note: 3
+Title: Function Definition
+Text: Functions in Python are defined using the def keyword followed by a function name and parentheses.
+They can take parameters and return values.
+Functions are used to encapsulate reusable code in a program.
+
+Tags: functions,  basics
+Link: 
+Snippet:
+def add(a, b):
+    return a + b
+
+
+
+Note: 4
+Title: Conditional Statements
+Text: Conditional statements in Python use if, elif, and else blocks to execute different blocks of code based on certain conditions.
+These are fundamental for decision-making in a program.
+Conditions are evaluated in order, and the first true condition has its block executed.
+
+Tags: conditionals,  basics
+Link: 
+Snippet:
+if x > 10:
+    print("Greater than 10")
+elif x == 10:
+    print("Equal to 10")
+else:
+    print("Less than 10")
+
+
+
+Note: 5
+Title: For Loops
+Text: For loops in Python are used to iterate over a sequence, which can be a list, a tuple, or a string.
+This loop repeats as many times as there are elements in the sequence.
+It's one of the most common ways to iterate through data in Python.
+
+Tags: loops,  basics
+Link: 
+Snippet:
+for i in range(5):
+    print(i)
+
+
+
+Note: 6
+Title: Dictionary Access
+Text: Dictionaries in Python are collections of key-value pairs which can be accessed using square brackets with the key.
+If the key is not found, a KeyError is raised.
+Dictionaries are mutable and highly efficient for retrieving data.
+
+Tags: dictionary,  data structures
+Link: 
+Snippet:
+my_dict = {'a': 1, 'b': 2}
+print(my_dict['a'])
+
+
+
+Note: 7
+Title: Try Except Block
+Text: The try and except block in Python is used to catch and handle exceptions.
+This block is crucial for maintaining the flow of a program and providing error handling that can respond to unexpected issues during execution.
+It prevents the program from crashing by catching runtime errors.
+
+Tags: error handling,  exceptions
+Link: 
+Snippet:
+try:
+    x = 1 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+
+
+
+Note: 8
+Title: List Slicing
+Text: Slicing in Python allows you to extract a part of a list by specifying a start and an end index.
+The start index is inclusive, while the end index is exclusive.
+This technique is very handy for obtaining sublists.
+
+Tags: lists,  slicing
+Link: 
+Snippet:
+my_list = [1, 2, 3, 4, 5]
+sliced_list = my_list[1:3]  # Gets items from index 1 to 2
+
+
+
+Note: 9
+Title: File Reading
+Text: Reading from files in Python is commonly done using the with statement, which ensures that the file is properly closed after its suite finishes.
+The open() function is used to open the file in a specified mode, e.g., 'r' for reading.
+This method is secure and efficient for handling file operations.
+
+Tags: files,  io
+Link: 
+Snippet:
+with open('file.txt', 'r') as file:
+    contents = file.read()
+
+
+
+Note: 10
+Title: Lambda Functions
+Text: Lambda functions are small anonymous functions defined with the lambda keyword.
+They can have any number of arguments but only one expression.
+They are often used for short, simple functions that are convenient to define at the point where they are called.
+
+Tags: functions,  lambda
+Link: 
+Snippet:
+square = lambda x: x**2
+print(square(5))
+
+
+

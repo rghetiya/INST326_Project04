@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Basic Print Function",
+        "text": "The print function is used to output data to the standard output device, which is typically the console.\nIt can print strings, integers, and objects.\nWhen printing multiple items, commas can be used to separate them, which inserts a space between each item in the output.",
+        "tags": [
+            "basics",
+            " print"
+        ],
+        "link": "",
+        "snippet": "print(\"Hello,\", \"World!\", \"Age:\", 30)"
+    },
+    {
+        "id": 2,
+        "title": "List Comprehensions",
+        "text": "List comprehensions provide a concise way to create lists from existing lists or iterables.\nThey consist of brackets containing an expression followed by a for clause.\nThis method is often more readable and concise than using loops.",
+        "tags": [
+            "lists",
+            " comprehension"
+        ],
+        "link": "",
+        "snippet": "squares = [x**2 for x in range(10)]"
+    },
+    {
+        "id": 3,
+        "title": "Function Definition",
+        "text": "Functions in Python are defined using the def keyword followed by a function name and parentheses.\nThey can take parameters and return values.\nFunctions are used to encapsulate reusable code in a program.",
+        "tags": [
+            "functions",
+            " basics"
+        ],
+        "link": "",
+        "snippet": "def add(a, b):\n    return a + b"
+    },
+    {
+        "id": 4,
+        "title": "Conditional Statements",
+        "text": "Conditional statements in Python use if, elif, and else blocks to execute different blocks of code based on certain conditions.\nThese are fundamental for decision-making in a program.\nConditions are evaluated in order, and the first true condition has its block executed.",
+        "tags": [
+            "conditionals",
+            " basics"
+        ],
+        "link": "",
+        "snippet": "if x > 10:\n    print(\"Greater than 10\")\nelif x == 10:\n    print(\"Equal to 10\")\nelse:\n    print(\"Less than 10\")"
+    },
+    {
+        "id": 5,
+        "title": "For Loops",
+        "text": "For loops in Python are used to iterate over a sequence, which can be a list, a tuple, or a string.\nThis loop repeats as many times as there are elements in the sequence.\nIt's one of the most common ways to iterate through data in Python.",
+        "tags": [
+            "loops",
+            " basics"
+        ],
+        "link": "",
+        "snippet": "for i in range(5):\n    print(i)"
+    },
+    {
+        "id": 6,
+        "title": "Dictionary Access",
+        "text": "Dictionaries in Python are collections of key-value pairs which can be accessed using square brackets with the key.\nIf the key is not found, a KeyError is raised.\nDictionaries are mutable and highly efficient for retrieving data.",
+        "tags": [
+            "dictionary",
+            " data structures"
+        ],
+        "link": "",
+        "snippet": "my_dict = {'a': 1, 'b': 2}\nprint(my_dict['a'])"
+    },
+    {
+        "id": 7,
+        "title": "Try Except Block",
+        "text": "The try and except block in Python is used to catch and handle exceptions.\nThis block is crucial for maintaining the flow of a program and providing error handling that can respond to unexpected issues during execution.\nIt prevents the program from crashing by catching runtime errors.",
+        "tags": [
+            "error handling",
+            " exceptions"
+        ],
+        "link": "",
+        "snippet": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero.\")"
+    },
+    {
+        "id": 8,
+        "title": "List Slicing",
+        "text": "Slicing in Python allows you to extract a part of a list by specifying a start and an end index.\nThe start index is inclusive, while the end index is exclusive.\nThis technique is very handy for obtaining sublists.",
+        "tags": [
+            "lists",
+            " slicing"
+        ],
+        "link": "",
+        "snippet": "my_list = [1, 2, 3, 4, 5]\nsliced_list = my_list[1:3]  # Gets items from index 1 to 2"
+    },
+    {
+        "id": 9,
+        "title": "File Reading",
+        "text": "Reading from files in Python is commonly done using the with statement, which ensures that the file is properly closed after its suite finishes.\nThe open() function is used to open the file in a specified mode, e.g., 'r' for reading.\nThis method is secure and efficient for handling file operations.",
+        "tags": [
+            "files",
+            " io"
+        ],
+        "link": "",
+        "snippet": "with open('file.txt', 'r') as file:\n    contents = file.read()"
+    },
+    {
+        "id": 10,
+        "title": "Lambda Functions",
+        "text": "Lambda functions are small anonymous functions defined with the lambda keyword.\nThey can have any number of arguments but only one expression.\nThey are often used for short, simple functions that are convenient to define at the point where they are called.",
+        "tags": [
+            "functions",
+            " lambda"
+        ],
+        "link": "",
+        "snippet": "square = lambda x: x**2\nprint(square(5))"
+    }
+]
